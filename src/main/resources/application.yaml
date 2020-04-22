@@ -1,0 +1,14 @@
+server:
+  port: 8088
+logging:
+  level:
+    cn.tll.demo: debug
+    #org.springframework: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: cn.tll.demo.entity
